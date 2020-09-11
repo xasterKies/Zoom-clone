@@ -1,5 +1,5 @@
 
-const videoGrid = document.getElementById("video-grid")
+const videoGrid = document.getElementById('video-grid')
 const myVideo = document.createElement('video');
 myVideo.muted = true;
 
