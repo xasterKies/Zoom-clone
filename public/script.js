@@ -15,6 +15,8 @@ navigator.mediaDevices.getUserMedia({
 
 socket.emit('join-room', ROOM_ID);
 
+socket.on(user-connecte)
+
 const addVideoStream = (video, stream) => {
     video.srcObject = stream;
     video.addEventListener('loadedmetadata', () => {
