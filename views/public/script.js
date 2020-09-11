@@ -6,3 +6,9 @@ navigator.mediaDevices.getUserMedia({
 }).then(create => {
     myVideoStream = stream;
 })
+
+
+cosnt addVideoStream = (video, stream) => {
+    video.srcObject = stream;
+    video.addEventListener()
+}
