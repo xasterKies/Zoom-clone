@@ -13,7 +13,7 @@ navigator.mediaDevices.getUserMedia({
     addVideoStream(myVideo, stream);
 })
 
-socket.emit('join-room')
+socket.emit('join-room');
 
 const addVideoStream = (video, stream) => {
     video.srcObject = stream;
