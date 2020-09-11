@@ -15,6 +15,6 @@ navigator.mediaDevices.getUserMedia({
 const addVideoStream = (video, stream) => {
     video.srcObject = stream;
     video.addEventListener('loadedmetadata', () => {
-
+    video.play
     })
 }
