@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
     res.render('room');
 })
 
-app.set['view engine']
+app.set['view engine', 'ejs'];
 
 
 
