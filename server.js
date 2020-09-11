@@ -3,7 +3,7 @@ const app = express();
 const server = require('http').Server(app);
 
 app.get('/', (req, res) => {
-    res.status(200).write("Hello World");
+    res.status(200).send("Hello World");
 })
 
 
