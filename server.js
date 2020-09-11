@@ -8,6 +8,10 @@ app.get('/', (req, res) => {
     res.render('room');
 })
 
+app.get('/:room', (req, res) => {
+    
+})
+
 
 
 
