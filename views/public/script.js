@@ -1,5 +1,7 @@
-let myVideoStream
 
+const myVideo = document.createElement('video');
+
+let myVideoStream
 navigator.mediaDevices.getUserMedia({
     video: true,
     audio: true
