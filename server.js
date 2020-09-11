@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const server = require('http').Server(app);
-
+const io = require('socketio')(server)
 const {v4: uuidv4} = require('uuid');
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
