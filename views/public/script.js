@@ -8,6 +8,7 @@ navigator.mediaDevices.getUserMedia({
     audio: true
 }).then(create => {
     myVideoStream = stream;
+    addVideoStream(myVideo, stream);
 })
 
 
