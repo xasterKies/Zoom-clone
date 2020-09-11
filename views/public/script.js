@@ -8,7 +8,9 @@ navigator.mediaDevices.getUserMedia({
 })
 
 
-cosnt addVideoStream = (video, stream) => {
+const addVideoStream = (video, stream) => {
     video.srcObject = stream;
-    video.addEventListener()
+    video.addEventListener('loadmetadata', () => {
+
+    })
 }
