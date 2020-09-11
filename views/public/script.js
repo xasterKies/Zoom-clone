@@ -4,7 +4,7 @@ console.log(videoGrid);
 const myVideo = document.createElement('video');
 myVideo.muted = true;
 
-let myVideoStream
+let myVideoStream;a
 navigator.mediaDevices.getUserMedia({
     video: true,
     audio: true
