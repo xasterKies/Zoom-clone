@@ -17,9 +17,11 @@ navigator.mediaDevices.getUserMedia({
 }).then(stream => {
     myVideoStream = stream;
     addVideoStream(myVideo, stream);
-})n
+})
 
-peer.on('open')
+peer.on('open', id => {
+    console.log(id);
+})
 
 socket.emit('join-room', ROOM_ID);
 
