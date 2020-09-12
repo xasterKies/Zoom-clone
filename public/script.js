@@ -4,6 +4,8 @@ console.log(videoGrid);
 const myVideo = document.createElement('video');
 myVideo.muted = true;
 
+var peer = new Peer();
+
 let myVideoStream;
 navigator.mediaDevices.getUserMedia({
     video: true,
