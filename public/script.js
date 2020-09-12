@@ -4,7 +4,11 @@ console.log(videoGrid);
 const myVideo = document.createElement('video');
 myVideo.muted = true;
 
-var peer = new Peer();
+var peer = new Peer(undefined, {
+    path: '/peerjs',
+    host: '/',
+    port: '3030'
+});
 
 let myVideoStream;
 navigator.mediaDevices.getUserMedia({
