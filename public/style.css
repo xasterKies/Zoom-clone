@@ -14,7 +14,7 @@ video{
     display: flex;
 }
 
-.main_left{
+.main__left{
     flex: 0.8;
 }
 
