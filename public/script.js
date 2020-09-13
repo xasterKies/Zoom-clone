@@ -26,10 +26,10 @@ peer.on('open', id => {
 
 
 socket.on('user-connected', (userId) => {
-    connectToNewUser(userId);
+    connectToNewUser(userId, stream);
 })
 
-const connectToNewUser = (userId) => {
+const connectToNewUser = (userId, stream) => {
     const call = peer.call(userId, stream)
     const video = document.createElement('video')
     call.on('stream'), userVideoStream => {
