@@ -28,15 +28,14 @@ peer.on('call', call => {
 })
 
 
+socket.on('user-connected', (userId) => {
+    connectToNewUser(userId, stream);
+})
+
 peer.on('open', id => {
     socket.emit('join-room', ROOM_ID, id);
 })
 
-
-
-socket.on('user-connected', (userId) => {
-    connectToNewUser(userId, stream);
-})
 
 const connectToNewUser = (userId, stream) => {
     const call = peer.call(userId, stream)
@@ -45,8 +44,6 @@ const connectToNewUser = (userId, stream) => {
         addVideoStream(video, userVideoStream)
     }
 }
-
-
 
 const addVideoStream = (video, stream) => {
     video.srcObject = stream;
