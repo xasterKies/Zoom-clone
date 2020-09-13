@@ -25,5 +25,5 @@ video{
 .main__videos{
     flex-grow: 1;
     background-color: black;
-    dis
+    display: flex;
 }
