@@ -37,6 +37,8 @@ const connectToNewUser = (userId, stream) => {
     }
 }
 
+const addVideoStream
+
 const addVideoStream = (video, stream) => {
     video.srcObject = stream;
     video.addEventListener('loadedmetadata', () => {
