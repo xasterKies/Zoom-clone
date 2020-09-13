@@ -20,7 +20,7 @@ navigator.mediaDevices.getUserMedia({
 })
 
 peer.on('call', call => {
-    
+    call.answer(stream)
 })
 
 
