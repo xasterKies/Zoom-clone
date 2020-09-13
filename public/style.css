@@ -26,4 +26,5 @@ video{
     flex-grow: 1;
     background-color: black;
     display: flex;
+    justify-content: center;
 }
