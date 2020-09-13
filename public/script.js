@@ -29,7 +29,7 @@ socket.on('user-connected', (userId) => {
     connectToNewUser(userId);
 })
 
-const connectToNewUser = () => {
+const connectToNewUser = (userId) => {
     console.log('new user');
 }
 
