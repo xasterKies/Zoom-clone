@@ -19,7 +19,9 @@ navigator.mediaDevices.getUserMedia({
     addVideoStream(myVideo, stream);
 })
 
-peer.on()
+peer.on('call', call => {
+    
+})
 
 
 peer.on('open', id => {
