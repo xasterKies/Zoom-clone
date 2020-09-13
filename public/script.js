@@ -31,7 +31,8 @@ socket.on('user-connected', (userId) => {
 
 const connectToNewUser = (userId) => {
     const call = peer.call(userId, stream)
-    const video
+    const video = document.createElement('video')
+    
 }
 
 const addVideoStream = (video, stream) => {
