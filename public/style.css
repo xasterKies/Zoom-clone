@@ -21,3 +21,8 @@ video{
 .main__right {
     flex: 0.2;
 }
+
+.main__videos{
+    flex-grow: 1;
+    
+}
