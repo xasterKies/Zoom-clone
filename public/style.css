@@ -55,5 +55,6 @@ video{
     align-items: center;
     padding: 8px 10px;
     min-width: 80px;
+    cursor: pointer;
 }
 
