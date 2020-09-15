@@ -79,4 +79,7 @@ const scrollBottom = () => {
 
 const muteUnmute = () => {
     const enable = myVideoStream.getAudioTracks()[0].enabled;
-}
+    if(enabled) {
+        myVideoStream.getAudioTracks()[0].enabled = false;
+        setUnmuteButton();
+}  else
