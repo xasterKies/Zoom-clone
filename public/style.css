@@ -27,6 +27,7 @@ video{
 
 .main__right {
     flex: 0.2;
+    display: flex;
 }
 
 .main__videos{
