@@ -114,3 +114,19 @@ const muteUnmute = () => {
     myVideoStream.getVideoTracks()[0].enabled = true;
     }
 }
+
+const setStopVideo = () => {
+    const html = `
+     <i class="fa fa-video"></i>
+     <span>Stop Video</span>
+    `
+    document.querySelector('.main__video__button').innerHTML = html;
+}
+
+const setUnmuteButton = () => {
+    const html = `
+    <i class="unmute fa fa-microphone-slash"></i>
+    <span>Unmute</span>
+    `
+    document.querySelector('.main__mute__button').innerHTML = html;
+}
