@@ -21,6 +21,8 @@ video{
 
 .main__left{
     flex: 0.8;
+    display: flex;
+    flex-direction: column;
 }
 
 .main__right {
