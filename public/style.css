@@ -43,3 +43,7 @@ video{
     color: #d2d2d2;
     padding: 5px;
 }
+
+.main___controls___blocks{
+    display: flex;
+}
