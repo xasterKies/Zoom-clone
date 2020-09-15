@@ -123,10 +123,10 @@ const setStopVideo = () => {
     document.querySelector('.main__video__button').innerHTML = html;
 }
 
-const setUnmuteButton = () => {
+const setPlayVideo = () => {
     const html = `
-    <i class="unmute fa fa-microphone-slash"></i>
-    <span>Unmute</span>
+    <i class="stop fa fa-video-slash"></i>
+    <span>Play Video</span>
     `
-    document.querySelector('.main__mute__button').innerHTML = html;
+    document.querySelector('.main__video__button').innerHTML = html;
 }
