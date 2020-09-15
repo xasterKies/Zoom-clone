@@ -90,6 +90,7 @@ const muteUnmute = () => {
 
 const setMuteButton = () => {
     const html = `
-     <i class="fa fa-microphone"><
+     <i class="fa fa-microphone"></i>
+     <span>Mute</span>
     `
 }
