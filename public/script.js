@@ -59,6 +59,7 @@ let text = $('input');
 
 $('html').keydown((e) => {
     if ( e.which== 13 && tex.val().length !==0) {
+        console.log(text);
         socket.emit('message', text.val());
         text.val('')
     }
