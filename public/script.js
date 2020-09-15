@@ -68,5 +68,5 @@ $('html').keydown((e) => {
 });
 
 socket.on('createMessage', message => {
-    $('ul').append(<li class = "message"></li>)
+    $('ul').append(<li class = "message"><b>User</b></li>)
 })
