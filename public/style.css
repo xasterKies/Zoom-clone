@@ -51,5 +51,9 @@ video{
 .main__controls__button{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    min-width: 80px;
 }
 
