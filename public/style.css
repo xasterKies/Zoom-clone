@@ -86,5 +86,10 @@ video{
     flex-grow: 1;
 }
 
+.main__message__container{
+    padding: 22px 12px;
+    display: flex;
+}
+
 
 
