@@ -65,4 +65,8 @@ $('html').keydown((e) => {
         text.val('')
     }
 
+});
+
+socket.on('createMessage', message => {
+    console.log('server', message)
 })
