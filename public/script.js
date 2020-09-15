@@ -54,3 +54,7 @@ const addVideoStream = (video, stream) => {
     })
     videoGrid.append(video);
 }
+
+let msg = $('input')
+
+$('html')
