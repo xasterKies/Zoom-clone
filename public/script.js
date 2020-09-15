@@ -55,7 +55,7 @@ const addVideoStream = (video, stream) => {
     videoGrid.append(video);
 }
 
-let msg = $('input')
+let msg = $('input');
 
 $('html').keydown(e) => {
     if ( e.which== 13 && tex.val().length !==0) {
