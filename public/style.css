@@ -39,4 +39,5 @@ video{
 
 .main__controls{
     display: flex;
+    background-color: #1c1e210;
 }
