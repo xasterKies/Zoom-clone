@@ -44,7 +44,7 @@ navigator.mediaDevices.getUserMedia({
     });
 
     socket.on('createMessage', message => {
-        $('.messages').append(`<li class = "message"><b>User</b>${message}</li>`)
+        $('.messages').append(`<li class = "message"><b>User</b><br>${message}</li>`)
     })
 })
 
