@@ -104,6 +104,13 @@ const setUnmuteButton = () => {
     document.querySelector('.main__mute__button').innerHTML = html;
 }
 
-const playStop = () => {
-    let enabled = myVideoStream.getV
+const muteUnmute = () => {
+    const enabled = myVideoStream.getVideoTracks()[0].enabled;
+    if(enabled) {
+        myVideoStream.getAudioTracks()[0].enabled = false;
+        setUnmuteButton();
+}  else {
+    setMuteButton();
+    myVideoStream.getAudioTracks()[0].enabled = true;
+    }
 }
