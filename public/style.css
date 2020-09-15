@@ -46,5 +46,6 @@ video{
 
 .main___controls___blocks{
     display: flex;
-    flex-direction: column;
 }
+
+.main__controls__butt
