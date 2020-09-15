@@ -56,10 +56,11 @@ const addVideoStream = (video, stream) => {
 }
 
 let text = $('input');
+console.log(text.value);
 
 $('html').keydown((e) => {
     if ( e.which== 13 && tex.val().length !==0) {
-        console.log(text);
+        console.log(text.value);
         socket.emit('message', text.val());
         text.val('')
     }
