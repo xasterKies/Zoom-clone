@@ -91,7 +91,12 @@ video{
     display: flex;
 }
 
-
+.main__message__container input {
+    flex-grow: 1;
+    background-color: transparent;
+    border: none;
+    color: #f5f5f5;
+}
 
 
 
