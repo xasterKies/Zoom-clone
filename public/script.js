@@ -107,10 +107,10 @@ const setUnmuteButton = () => {
 const muteUnmute = () => {
     const enabled = myVideoStream.getVideoTracks()[0].enabled;
     if(enabled) {
-        myVideoStream.getAudioTracks()[0].enabled = false;
-        setUnmuteButton();
+        myVideoStream.getVideoTracks()[0].enabled = false;
+        setPlayVideo();
 }  else {
-    setMuteButton();
-    myVideoStream.getAudioTracks()[0].enabled = true;
+    setStopVideo();
+    myVideoStream.getVideoTracks()[0].enabled = true;
     }
 }
