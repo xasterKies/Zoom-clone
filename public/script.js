@@ -57,4 +57,6 @@ const addVideoStream = (video, stream) => {
 
 let msg = $('input')
 
-$('html')
+$('html').keydown(e) => {
+    
+}
