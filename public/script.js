@@ -45,9 +45,7 @@ navigator.mediaDevices.getUserMedia({
 
     socket.on('createMessage', message => {
         $('.messages').append(`<li class = "message"><b>User</b><br>${message}</li>`)
-        scrollBottom = {
-            
-        }
+        scrollBottom();
     })
 })
 
@@ -72,5 +70,9 @@ const addVideoStream = (video, stream) => {
     video.play();
     })
     videoGrid.append(video);
+}
+
+const scrollBottom = () => {
+    
 }
 
