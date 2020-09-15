@@ -101,5 +101,5 @@ const setUnmuteButton = () => {
     <i class="unmute fa fa-microphone-slash"></i>
     <span>Unmute</span>
     `
-    document
+    document.querySelector('.main__mute__button').innerHTML = html;
 }
