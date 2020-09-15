@@ -103,3 +103,7 @@ const setUnmuteButton = () => {
     `
     document.querySelector('.main__mute__button').innerHTML = html;
 }
+
+const playStop = () => {
+    let enabled = myVideoStream.getV
+}
