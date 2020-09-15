@@ -93,4 +93,5 @@ const setMuteButton = () => {
      <i class="fa fa-microphone"></i>
      <span>Mute</span>
     `
+    document.querySelector('.main__mute__button').innerHTML = html;
 }
