@@ -96,7 +96,7 @@ const setMuteButton = () => {
     document.querySelector('.main__mute__button').innerHTML = html;
 }
 
-const playStop = () => {
+const setUnmuteButton = () => {
     const html = `
     <i class="unmute fa fa-microphone-slash"></i>
     <span>Unmute</span>
@@ -104,7 +104,7 @@ const playStop = () => {
     document.querySelector('.main__mute__button').innerHTML = html;
 }
 
-const muteUnmute = () => {
+const playStop = () => {
     const enabled = myVideoStream.getVideoTracks()[0].enabled;
     if(enabled) {
         myVideoStream.getVideoTracks()[0].enabled = false;
