@@ -87,3 +87,9 @@ const muteUnmute = () => {
     myVideoStream.getAudioTracks()[0].enabled = true;
     }
 }
+
+const setMuteButton = () => {
+    const html = `
+     <i class="fas
+    `
+}
